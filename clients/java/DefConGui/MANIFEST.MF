@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Permissions: all-permissions
+Application-Name: DEF CON GUI
+Main-Class: DefConGui.DefConGui
+Codebase: http://def.con

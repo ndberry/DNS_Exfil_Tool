@@ -1,0 +1,258 @@
+body {
+	padding-top: 50px;    /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
+	color: #959595;
+	}
+	
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+	color: #dd845a;
+	}
+	
+.feature {
+	background: url('../images/light_bulb.jpg');
+	background-position: top right;
+	background-size: cover;
+	background-color: #dd845a;
+	color: white;
+	text-shadow: 1px 1px 8px black;
+	}
+
+.feature .btn {
+	text-shadow: none;
+	}
+	
+.promo, .footer-map {
+	border-width: 1px;
+	border-color: black;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	}
+
+.promo,
+.promo h3,
+.promo a:link,
+.promo a:visited,
+.promo a:hover,
+.promo a:active {
+    color: white;
+	text-shadow: 1px 1px 8px black;
+    text-decoration: none;
+}
+
+.promo-item {
+    height: 200px;
+    line-height: 180px;
+    text-align: center;
+}
+
+.promo-item:hover {
+    background-size: 110%; 
+    border: 5px solid black;
+    line-height: 170px;
+}
+
+.promo-item h3 {
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.favcat-1 {
+          background: url('../images/favcat-1.jpg');
+          }
+.favcat-2 {
+          background: url('../images/favcat-2.jpg');
+          }
+.favcat-3 {
+          background: url('../images/favcat-3.jpg');
+          }
+.favcat-4 {
+          background: url('../images/favcat-4.jpg');
+          }
+.favcat-5 {
+          background: url('../images/favcat-5.jpg');
+          }
+.favcat-6 {
+          background: url('../images/favcat-6.jpg');
+          }
+
+.favcat-1,
+.favcat-2,
+.favcat-3,
+.favcat-4,
+.favcat-5,
+.favcat-6 {
+          background-size: cover;
+          background-position: 50% 50%;
+          }
+
+.item-1 {
+	background: url('../images/mung_beans.jpg');
+	}
+	
+.item-2 {
+	background: url('../images/coffee_beans_1.jpg');
+	}
+	
+.item-3 {
+	background: url('../images/grapes.jpg');
+	}
+		
+.item-1,
+.item-2,
+.item-3 {
+	background-size: cover;
+	background-position: 50% 50%;
+	}
+
+.featured-product > img,
+.featured-product > a > img {
+	height: 150px;
+}
+
+.featured-product h3 {
+	color: #dd845a;
+	font-size: 18px;
+	}
+
+.featured-product .price {
+	color: #dd845a;
+	font-size: 18px;
+	}
+	
+.featured-product .price s {
+	color: #999;
+	font-size: 18px;
+	}
+	
+.footer-map {
+	height: 300px;
+	width: 100%;
+	background: url('../images/map.jpg');
+	background-size: cover;
+	border-color: #ccc;
+	}
+.footer-info {
+    padding: 20px 0;
+    background: #f7f7f7;
+}
+
+.footer-info,
+.footer-info a:link,
+.footer-info a:hover,
+.footer-info a:focus,
+.footer-info a:visited {
+    color: #959595;
+	}
+
+.footer-info h3 {
+	color: black;
+	font-size: 18px;
+	}
+    
+.footer-info-item {
+    padding: 0px 20px;
+    }
+    
+footer .small-print {
+	background-color: #fff;
+	padding: 30px 0;
+	text-align: center;
+}
+
+
+/*
+*************************** 
+Override Bootstrap Classes 
+***************************
+*/
+
+/* Links */
+a {
+  color: orange;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: darkorange;
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar-default {
+  background-color: #fff;
+}
+.navbar-default .navbar-brand {
+  color: #dd845a;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: sienna;
+  background-color: transparent;
+}
+
+/* Primary Buttons */
+.btn-primary {
+  color: #fff;
+  background-color: orange;
+  border-color: orange;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: darkorange;
+  border-color: darkorange;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: darkorange;
+  border-color: darkorange;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: darkorange;
+  border-color: darkorange;
+}
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: #fff;
+  background-color: darkorange;
+  border-color: darkorange;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: sandybrown;
+  border-color: sandybrown;
+}
