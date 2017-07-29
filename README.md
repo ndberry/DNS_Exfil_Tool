@@ -1,2 +1,5 @@
 # DNS_Exfil_Tool
-Usage and instructions will be added here when the tool is released.
+PoC for DefCon DemoLabs
+
+Writen by Cory Schwartz
+Concepts and theorys by Nolan Berry
