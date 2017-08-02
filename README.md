@@ -2,4 +2,4 @@
 PoC for DefCon DemoLabs
 
 Writen by Cory Schwartz
-Concepts and theorys by Nolan Berry
+Concepts by Nolan Berry
